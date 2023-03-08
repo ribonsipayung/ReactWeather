@@ -53,6 +53,7 @@ module.exports={
             About: path.resolve(__dirname, 'app/components/About.jsx'),
             Examples: path.resolve(__dirname, 'app/components/Examples.jsx'),
             openWeatherMap: path.resolve(__dirname, 'app/api/openWeatherMap.jsx'),
+            ErrorModal: path.resolve(__dirname, 'app/components/ErrorModal.jsx')
         },
         modules: [
           path.resolve(__dirname, 'node_modules')
